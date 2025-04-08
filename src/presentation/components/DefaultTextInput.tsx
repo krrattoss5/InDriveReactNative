@@ -13,7 +13,7 @@ import {
 interface Props {
   placeholder: string
   value: string
-  onChangeText: (text: NativeSyntheticEvent<TextInputChangeEventData>) => void
+  onChangeText: (text: string) => void
   keyBoardType?: KeyboardType
   icon: any
   secureTextEntry?: boolean
